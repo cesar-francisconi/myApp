@@ -1,4 +1,5 @@
 import {
+  Text,
   StyleSheet,
   View,
 } from 'react-native';
@@ -6,7 +7,9 @@ import {
 export default function App() {
   return (
     <View>
-      
+      <Text>
+          Title
+      </Text>
     </View>
   );
 }
